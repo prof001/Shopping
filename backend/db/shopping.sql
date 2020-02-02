@@ -18,5 +18,5 @@ VALUES
 -- SELECT * FROM pg_user
 -- dropdb -U node_user {dbName}
 -- createdb -U node_user {dbName}
--- psql -U node_user {dbName} < ./shoppingsql
+-- psql -U node_user {dbName} < ./shopping.sql
 -- psql -U node_user {dbName}

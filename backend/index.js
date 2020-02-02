@@ -6,7 +6,7 @@ const customers = require('./routes/customers');
 
 const port = 5000;
 
-app.use('api/v1/customers', customers);
+app.use('/api/v1/customers', customers);
 app.get('', (req, res) => {
   res.json('Hello from server');
 });
